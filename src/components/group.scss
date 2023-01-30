@@ -1,0 +1,149 @@
+.bg-grey {
+    background-color: #42464f;
+    border-radius: 5px;
+}
+
+.group_name_container {
+    width: 300px;
+    height: 100vh;
+    background-color: #303136;
+    overflow-y: scroll;
+
+
+    .main_wrapper {
+
+        .search {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 8px;
+            border-bottom: 1px solid darkslategray;
+
+            input {
+                background-color: #212226;
+                color: white;
+                font-weight: 500;
+                border: none;
+                padding: 5px;
+                width: 90%;
+            }
+        }
+
+        .group_tabs {
+
+            .friends {
+                width: 90%;
+                margin: auto;
+                margin-top: 10px;
+                padding: 10px;
+                gap: 13px;
+                cursor: pointer;
+
+                div {
+                    font-weight: 500;
+                    color: darkgray;
+                }
+            }
+        }
+
+
+        .direct_msg_section {
+
+            .msg_head {
+                color: darkgray;
+                font-weight: 500;
+                width: 90%;
+                margin: auto;
+                margin-top: 18px;
+                padding: 10px;
+                // gap: 13px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+
+        .group_info_container {
+            width: 90%;
+            padding: 10px 3px;
+            margin: auto;
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+
+            .gi_icon {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                cursor: pointer;
+
+            }
+
+            .gi_name {
+
+                small {
+                    font-size: 12px;
+                    // font-weight: 400;
+                }
+            }
+        }
+
+        .discord_controls_section {
+            background-color: #292a2e;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .dis_info {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                .discord_icon {
+                    background-color: #595aef;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    .online {
+                        height: 12px;
+                        width: 12px;
+                        background-color: #34ce34;
+                        border-radius: 50%;
+                        bottom: 0;
+                        right: 0;
+                        box-shadow: 0px 0px 8px black;
+    
+                    }
+                }
+    
+                .channel_name {
+                    font-weight: 500;
+    
+                    small {
+                        font-weight: 400;
+                        color: darkgray;
+    
+                    }
+                }
+            }
+
+            .controls{
+                font-size: 20px;
+                display: flex;
+                gap: 20px;
+                cursor: pointer;
+            }
+
+            
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.group_sidebar {
+
+
+    .icons {
+        width: 100px;
+        height: 100vh;
+        overflow-y: scroll;
+        background-color: rgb(34 34 40);
+
+        .icon_bg {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            cursor: pointer;
+
+            img {
+                width: 70%;
+                height: 70%;
+            }
+
+            p {
+                top: 45px;
+                left: 33px;
+                background: red;
+                padding: 0px 3px;
+                border-radius: 9px;
+            }
+        }
+
+        .add{
+
+            .add_btn{
+                border: none;
+                background-color: #353840;
+                border-radius: 50%;
+                height: 60px;
+                width: 60px;
+                color: green;
+                cursor: pointer;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+}
